@@ -6,3 +6,61 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 
 ---
 
+**Nano Models (n):**
+
+| Model      | Parameters (M) | FLOPs (GFLOPs) |
+|------------|----------------|----------------|
+| YOLOv5n    | 1.9            | 4.5            |
+| YOLOv3tiny | —              | 5.6            |
+| YOLOv6n    | 4.7            | 11.4           |
+| YOLOv8n    | 3.2            | 8.7            |
+| YOLOv9t    | 2.0            | 7.7            |
+| YOLOv10n   | 2.3            | 6.7            |
+
+---
+
+**Small Models (s):**
+
+| Model      | Parameters (M) | FLOPs (GFLOPs) |
+|------------|----------------|----------------|
+| YOLOv5s    | 7.2            | 16.5           |
+| YOLOv6s    | 18.5           | 44.2           |
+| YOLOv8s    | 11.2           | 28.6           |
+| YOLOv9s    | 7.2            | 26.7           |
+| YOLOv10s   | 7.2            | 21.6           |
+
+---
+
+**Medium Models (m):**
+
+| Model      | Parameters (M) | FLOPs (GFLOPs) |
+|------------|----------------|----------------|
+| YOLOv3     | —              | 65.8           |
+| YOLOv5m    | 21.2           | 49.0           |
+| YOLOv6m    | 34.9           | 85.8           |
+| YOLOv8m    | 25.9           | 78.9           |
+| YOLOv9m    | 20.1           | 76.8           |
+| YOLOv10m   | 15.4           | 59.1           |
+
+---
+
+**Large Models (l):**
+
+| Model      | Parameters (M) | FLOPs (GFLOPs) |
+|------------|----------------|----------------|
+| YOLOv5l    | 46.5           | 109.1          |
+| YOLOv6l    | 59.6           | 150.7          |
+| YOLOv8l    | 43.7           | 165.2          |
+| YOLOv9c    | 25.5           | 102.8          |
+| YOLOv10l   | 24.4           | 120.3          |
+
+---
+
+**Extra Large Models (x):**
+
+| Model      | Parameters (M) | FLOPs (GFLOPs) |
+|------------|----------------|----------------|
+| YOLOv5x    | 86.7           | 205.7          |
+| YOLOv8x    | 68.2           | 257.8          |
+| YOLOv9e    | 58.1           | 192.5          |
+| YOLOv10x   | 29.5           | 160.4          |
