@@ -11,6 +11,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | Model      | Parameters (M) | FLOPs (GFLOPs) |
 |------------|----------------|----------------|
 | YOLOv5n    | 1.9            | 4.5            |
+| YOLOv3tiny | ///            | 5.6            |
 | YOLOv6n    | 4.7            | 11.4           |
 | YOLOv8n    | 3.2            | 8.7            |
 | YOLOv12n   | 2.5            | 6.0            |
@@ -28,6 +29,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 
 | Model      | Parameters (M) | FLOPs (GFLOPs) |
 |------------|----------------|----------------|
+| YOLOv3     | ////           | 65.8           |
 | YOLOv5m    | 21.2           | 49.0           |
 | YOLOv6m    | 34.9           | 85.8           |
 | YOLOv8m    | 25.9           | 78.9           |
