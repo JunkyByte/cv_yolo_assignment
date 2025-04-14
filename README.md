@@ -16,6 +16,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | YOLOv8n    | 3.2            | 8.7            |
 | YOLOv9t    | 2.0            | 7.7            |
 | YOLOv10n   | 2.3            | 6.7            |
+| **YOLOv11n** | 2.6          | 6.5            |
 
 ---
 
@@ -28,6 +29,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | YOLOv8s    | 11.2           | 28.6           |
 | YOLOv9s    | 7.2            | 26.7           |
 | YOLOv10s   | 7.2            | 21.6           |
+| **YOLOv11s** | 9.4          | 21.5           |
 
 ---
 
@@ -41,6 +43,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | YOLOv8m    | 25.9           | 78.9           |
 | YOLOv9m    | 20.1           | 76.8           |
 | YOLOv10m   | 15.4           | 59.1           |
+| **YOLOv11m** | 20.1         | 68.0           |
 
 ---
 
@@ -53,6 +56,7 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | YOLOv8l    | 43.7           | 165.2          |
 | YOLOv9c    | 25.5           | 102.8          |
 | YOLOv10l   | 24.4           | 120.3          |
+| **YOLOv11l** | 25.3         | 86.9           |
 
 ---
 
@@ -64,3 +68,4 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 | YOLOv8x    | 68.2           | 257.8          |
 | YOLOv9e    | 58.1           | 192.5          |
 | YOLOv10x   | 29.5           | 160.4          |
+| **YOLOv11x** | 56.9         | 194.9          |
