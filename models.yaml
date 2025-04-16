@@ -1,37 +1,44 @@
 nano:
   - yolov3-tinyu.pt
   - yolov5nu.pt
-  - yolov6n.yaml
   - yolov8n.pt
   - yolov9t.pt
   - yolov10n.pt
+  - yolo11n.pt
+  - yolo12n.pt
 
 small:
   - yolov5s.pt
-  - yolov6s.yaml
   - yolov8s.pt
   - yolov9s.pt
   - yolov10s.pt
+  - yolo11s.pt
+  - yolo12s.pt
 
 medium:
+  - yolov3u.pt
   - yolov5m.pt
-  - yolov6m.yaml
   - yolov8m.pt
   - yolov9m.pt
   - yolov10m.pt
+  - yolo11m.pt
+  - yolo12m.pt
 
 large:
   - yolov5l.pt
-  - yolov6l.yaml
   - yolov8l.pt
   - yolov9c.pt
   - yolov10l.pt
+  - yolo11l.pt
+  - yolo12l.pt
 
 xlarge:
   - yolov5x.pt
   - yolov8x.pt
   - yolov9e.pt
   - yolov10x.pt
+  - yolo11x.pt
+  - yolo12x.pt
 
-DATA_PATH: '/home/adryw/dataset/yolo/'
+DATA_PATH: '/home/adryw/dataset/yol_ckpts/'
 COCO_PATH: '/home/adryw/dataset/coco_cv/coco/'
