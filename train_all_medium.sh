@@ -1,7 +1,7 @@
 #!/bin/bash
 
 YAML_FILE=models.yaml
-MODELS=$(yq '.nano[]' "$YAML_FILE")
+MODELS=$(yq '.medium[]' "$YAML_FILE")
 
 for MODEL in $MODELS; do
   echo "Training with model: $MODEL"

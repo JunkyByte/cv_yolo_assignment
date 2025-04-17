@@ -16,7 +16,7 @@ small:
   - yolo12s.pt
 
 medium:
-  - yolov3u.pt
+  # - yolov3u.pt
   - yolov5m.pt
   - yolov8m.pt
   - yolov9m.pt

@@ -40,7 +40,8 @@ def fine_tune(model_name, models_yaml, data_yaml, epochs, batch_size, img_size):
         cos_lr=True,
         batch=0.65 if batch_size is None else int(batch_size),
         project=f'runs/{model_type}',
-        name=f'{model_type}_{model_name}_finetune_{epochs}'
+        name=f'{model_type}_{model_name}_finetune_{epochs}',
+        warmup_epochs=2,
     )
 
 if __name__ == '__main__':

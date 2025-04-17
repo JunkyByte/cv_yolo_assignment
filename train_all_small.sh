@@ -9,6 +9,6 @@ for MODEL in $MODELS; do
     --model_name "$MODEL" \
     --models_yaml models.yaml \
     --data_yaml /home/adryw/dataset/coco_cv/coco/coco.yaml \
-    --epochs 30 \
+    --epochs 15 \
     --img_size 640
 done
