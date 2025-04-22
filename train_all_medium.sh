@@ -1,14 +1,22 @@
 #!/bin/bash
 
 YAML_FILE=models.yaml
+
+# Determine config file to use
+CONFIG_FILE="./config.yaml"
+[[ ! -f "$CONFIG_FILE" ]] && CONFIG_FILE="config_default.yaml"
+
+# Extract the data path
+DATA_PATH=$(yq '.DATA_PATH' "$CONFIG_FILE")
+DATA_YAML="$DATA_PATH/coco.yaml"
+
 MODELS=$(yq '.medium[]' "$YAML_FILE")
 
 for MODEL in $MODELS; do
   echo "Training with model: $MODEL"
   python train.py \
     --model_name "$MODEL" \
-    --models_yaml models.yaml \
-    --data_yaml /home/adryw/dataset/coco_cv/coco/coco.yaml \
+    --data_yaml "$DATA_YAML" \
     --epochs 15 \
     --img_size 640
 done

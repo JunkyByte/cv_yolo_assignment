@@ -1,11 +1,10 @@
 import os
 import random
-import yaml
-import shutil
+from utils import load_config
+
 
 # Load configuration
-with open('./models.yaml', 'r') as file:
-    config = yaml.safe_load(file)
+config = load_config()
 COCO_PATH = config['COCO_PATH']
 TRAIN_TXT = os.path.join(COCO_PATH, 'train2017.txt')
 VAL_TXT = os.path.join(COCO_PATH, 'val2017.txt')

@@ -6,6 +6,24 @@ The objective of this project is to conduct a comprehensive evaluation of the va
 
 ---
 
+Downloading and setup COCO data for training. We use a simple yaml config file. To customize your data / ckpts paths copy the `config_default.yaml` as `config.yaml` and change it. It will be automatically loaded by the scripts.
+
+In order to download the coco data and labels (once you have setup your custom paths if needed) simply run (IT will take a while as COCO data is >15gbs)
+```bash
+python download_coco.py
+```
+
+Last but not least you need to add a `coco.yaml` config provided by ultralytics. In current folder you will find a version with correct modifications already applied for our usecase. Copy it to the root path of the COCO dataset you just downloaded.
+
+We need to create the subset of data that will be used for training the person-only object detector, in order to do so simply run
+```bash
+python subset_coco_data.py
+```
+
+You are done, training scripts should run correctly out of the box now!
+
+---
+
 **Nano Models (n):**
 
 | Model      | Parameters (M) | FLOPs (GFLOPs) |
