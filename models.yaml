@@ -16,7 +16,7 @@ small:
   - yolo12s.pt
 
 medium:
-  # - yolov3u.pt
+  # - yolov3u.pt  # Too slow!
   - yolov5m.pt
   - yolov8m.pt
   - yolov9m.pt
@@ -39,6 +39,3 @@ xlarge:
   - yolov10x.pt
   - yolo11x.pt
   - yolo12x.pt
-
-DATA_PATH: '/home/adryw/dataset/yol_ckpts/'
-COCO_PATH: '/home/adryw/dataset/coco_cv/coco/'

@@ -1,0 +1,2 @@
+DATA_PATH: './yolo_ckpts/'
+COCO_PATH: './coco_data/'
