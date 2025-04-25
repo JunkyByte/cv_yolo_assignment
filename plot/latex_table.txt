@@ -1,0 +1,23 @@
+\begin{tabular}{lccc}
+\toprule
+Model & Size & Version & Training Time (hours) \\
+\midrule
+YOLOv3n & Nano & 3 & 3.01 \\
+YOLOv5n & Nano & 5 & 2.51 \\
+YOLOv8n & Nano & 8 & 2.70 \\
+YOLOv9n & Nano & 9 & 4.07 \\
+YOLOv10n & Nano & 10 & 5.06 \\
+YOLOv11n & Nano & 11 & 3.11 \\
+YOLOv12n & Nano & 12 & 5.02 \\
+YOLOv5s & Small & 5 & 4.88 \\
+YOLOv8s & Small & 8 & 5.36 \\
+YOLOv9s & Small & 9 & 8.39 \\
+YOLOv10s & Small & 10 & 9.43 \\
+YOLOv11s & Small & 11 & 6.31 \\
+YOLOv12s & Small & 12 & 10.21 \\
+YOLOv5m & Medium & 5 & 11.46 \\
+YOLOv8m & Medium & 8 & 13.84 \\
+YOLOv9m & Medium & 9 & 16.91 \\
+YOLOv10m & Medium & 10 & 17.59 \\
+\bottomrule
+\end{tabular}
