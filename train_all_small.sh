@@ -7,8 +7,8 @@ CONFIG_FILE="./config.yaml"
 [[ ! -f "$CONFIG_FILE" ]] && CONFIG_FILE="config_default.yaml"
 
 # Extract the data path
-DATA_PATH=$(yq '.DATA_PATH' "$CONFIG_FILE")
-DATA_YAML="$DATA_PATH/coco.yaml"
+DATA_PATH=$(yq '.COCO_PATH' "$CONFIG_FILE")
+DATA_YAML="${DATA_PATH%/}/coco.yaml"
 
 MODELS=$(yq '.small[]' "$YAML_FILE")
 
